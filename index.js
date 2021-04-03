@@ -200,4 +200,11 @@ searchtextbox.addEventListener("input",function(){
     })
 })
 
+window.onload = function (){
+
+    setInterval(function(){
+        document.getElementById("heart").classList.toggle("beat");
+
+    },600)
+}
 
